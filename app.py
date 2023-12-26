@@ -31,27 +31,27 @@ def main() -> None:
     st.title("Your Position Size Calculator")
 
     # n
-    balance = st.text_input(
-        "Balance in USD($)",
-        key="100"
+    balance = st.number_input(
+        "Balance in USDT ($)",
+        value=100
     )
 
     # n
-    risk = st.text_input(
-        "Risk in Percentage(%)",
-        key="1"
+    risk = st.number_input(
+        "Risk in Percentage (%)",
+        value=1
     )
 
     # n
-    leverage = st.text_input(
-        "Leverage (100x, 75x, 50x, 10x)",
-        key="100"
+    leverage = st.number_input(
+        "Leverage (i.e. 100x, 75x, 50x, 10x)",
+        value=100
     )
     
     # n
-    stop_loss = st.text_input(
-        "Stop Loss in Percentage(%)",
-        key="0.3"
+    stop_loss = st.number_input(
+        "Stop Loss in Percentage (%)",
+        value=0.30
     )
 
     # n
