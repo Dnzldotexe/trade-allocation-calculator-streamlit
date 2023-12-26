@@ -1,65 +1,65 @@
 """
-n
+This python application is made to calculate the proper trading size with variable risk, leverage, and stop loss
 """
-# n
+# Import streamlit framework
 import streamlit as st
 
 
-# n
+# Set the page title and page icon
 st.set_page_config(page_title="Degen Calculator", page_icon=":money_mouth_face:")
 
 
 def size_calculator(balance: float, risk: int, leverage: int, stop_loss: int) -> float:
     """
-    n
+    Calculate the trading size based on four parameters
     """
-    # n
+    # Calculate allocation
     allocation = balance * (risk/100)
     
-    # n
+    # Calculate size
     size = allocation / ((leverage * stop_loss)/100)
     
-    # n
+    # Return size in float datatype
     return float(f"{size:.1f}")
 
 
 def main() -> None:
     """
-    n
+    Display the UI of the application and accept inputs from the user
     """
-    # n
+    # Show a title
     st.title("Your Position Size Calculator")
 
-    # n
+    # Get balance from the user
     balance = st.number_input(
         "Balance in USDT ($)",
         value=100
     )
 
-    # n
+    # Get risk from the user
     risk = st.number_input(
         "Risk in Percentage (%)",
         value=1
     )
 
-    # n
+    # Get leverage from the user
     leverage = st.number_input(
         "Leverage (i.e. 100x, 75x, 50x, 10x)",
         value=100
     )
     
-    # n
+    # Get stop loss from the user
     stop_loss = st.number_input(
         "Stop Loss in Percentage (%)",
         value=0.30
     )
 
-    # n
+    # Calculate button
     if st.button("Calculate"):
-        # n
+        # Store the output of the function call
         calculated_size = size_calculator(balance, risk, leverage, stop_loss)
 
-        # n
+        # Print the output
         st.code(calculated_size)
 
 
