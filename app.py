@@ -60,6 +60,7 @@ def main() -> None:
         calculated_size = size_calculator(balance, risk, leverage, stop_loss)
 
         # Print the output
+        st.success(f"Your position size is {calculated_size} USDT")
         st.code(calculated_size)
 
 
