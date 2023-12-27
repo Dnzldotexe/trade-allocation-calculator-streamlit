@@ -1,2 +1,2 @@
 # trade-allocation-calculator-streamlit
-Trade allocation calculator with Streamlit UI
+Position size calculator with Streamlit UI
