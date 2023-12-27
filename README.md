@@ -10,7 +10,7 @@ This Position Size calculator allows Traders to input all four (Account Balance,
 
 Note: Another feature might be added in where the client could input the entry price and the exit price.    
 
-# How to Use the Position Size Calculator?
+# 🤔How to Use the Position Size Calculator?
 ---
 1. Get Stop Loss Percentage (%) by placing the long/short position tool on the chart on any charting app. In this case we have 0.28% as our Stop Loss Percentage.    
 
