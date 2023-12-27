@@ -1,5 +1,4 @@
 # 📱What is a Position Size Calculator?
----
 A position size calculator is used by traders to precisely calculate their position size for every trade.   
 
 Precisely calculating position size for every trade is crucial for a trader's portfolio as it allows them to manage their risk on a trade.  
@@ -11,7 +10,6 @@ This Position Size calculator allows Traders to input all four (Account Balance,
 Note: Another feature might be added in where the client could input the entry price and the exit price.    
 
 # 🤔How to Use the Position Size Calculator?
----
 1. Get Stop Loss Percentage (%) by placing the long/short position tool on the chart on any charting app. In this case we have 0.28% as our Stop Loss Percentage.    
 
 ![Long Short Position](IMAGES/long_position_screenshot.png) 
