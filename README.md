@@ -10,12 +10,14 @@ This Position Size calculator allows Traders to input all four (Account Balance,
 Note: Another feature might be added in where the client could input the entry price and the exit price.    
 
 # 🤔How to Use the Position Size Calculator?
-1. Get Stop Loss Percentage (%) by placing the long/short position tool on the chart on any charting app of choice. In this case we have 0.28% as our Stop Loss Percentage.    
+1. Go to this link -> https://trading-size-calculator.streamlit.app/  
+
+2. Get Stop Loss Percentage (%) by placing the long/short position tool on the chart on any charting app of choice. In this case we have 0.28% as our Stop Loss Percentage.    
 
 ![Long Short Position](IMAGES/long_position_screenshot.png) 
 
-2. Provide input on Account Balance, Risk, Leverage, and Stop Loss. In this case, we have values of 1000, 1, 100, and 0.28. Then press the calculate button. 
+3. Provide input on Account Balance, Risk, Leverage, and Stop Loss. In this case, we have values of 1000, 1, 100, and 0.28. Then press the calculate button. 
 
-![Position Size Calculator with Inputs](IMAGES/position_size_calculator_with_inputs.png)
+![Position Size Calculator with Inputs](IMAGES/position_size_calculator_with_inputs.png)  
 
-3. Trade Responsibly!
+4. Trade Responsibly!  
