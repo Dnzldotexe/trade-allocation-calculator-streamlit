@@ -15,10 +15,10 @@ def size_calculator(balance: float, risk: int, leverage: int, stop_loss: int) ->
     """
     # Calculate allocation
     allocation = balance * (risk/100)
-    
+
     # Calculate size
     size = allocation / ((leverage * stop_loss)/100)
-    
+
     # Return size in float datatype
     return float(f"{size:.1f}")
 
@@ -30,9 +30,14 @@ def main() -> None:
     # Show a title
     st.title("Your Position Size Calculator")
 
+    # Show LaTeX formula
+    st.latex(r"""
+        Position Size = \frac{Account Balance \times (Risk/100)}{(Leverage \times Stop Loss)/100}
+        """)
+
     # Get balance from the user
     balance = st.number_input(
-        "Balance in USDT ($)",
+        "Account Balance in USDT ($)",
         value=100
     )
 
@@ -47,7 +52,7 @@ def main() -> None:
         "Leverage (i.e. 100x, 75x, 50x, 10x)",
         value=100
     )
-    
+
     # Get stop loss from the user
     stop_loss = st.number_input(
         "Stop Loss in Percentage (%)",
