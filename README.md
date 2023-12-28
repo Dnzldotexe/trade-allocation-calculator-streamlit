@@ -9,6 +9,8 @@ This Position Size calculator allows Traders to input all four (Account Balance,
 
 Fun Fact: It would take around 230 consecutive loses for a trader to lose 90% of $100.  
 
+![1% Consecutive Loses Plotted on a Line Chart](IMAGES/Bard_Chart_Image)  
+
 Note: Another feature might be added in where the client could input the entry price and the exit price.    
 
 # 🤔How to Use the Position Size Calculator?
