@@ -3,9 +3,9 @@ A position size calculator is used by traders to precisely calculate their posit
 
 Precisely calculating position size for every trade is crucial for a trader's portfolio as it allows them to manage their risk on a trade.  
 
-I developed this Position Size Calculator specifically for Futures Contracts Cryptocurrency Trading. As I have seen some calculators being limited only three variables (Leverage not considered into account).    
+I developed this Position Size Calculator specifically for Futures Contracts Cryptocurrency Trading. As I have seen some calculators being limited to only three variables (Leverage not considered into account).    
 
-This Position Size calculator allows Traders to input all four (Account Balance, Risk, Leverage, and Stop Loss) variables to precisely measure the position size with the added bonus of a formula on top.  
+This Position Size calculator allows Traders to input all four (Account Balance, Risk, Leverage, and Stop Loss) variables to precisely calculate the position size with the added bonus of a formula on top.  
 
 Fun Fact: It would take around 230 consecutive loses for a trader to lose 90% of $100.  
 
